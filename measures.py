@@ -44,6 +44,6 @@ def main(data_dir, gt_dir):
 
 
 if __name__ == "__main__":
-    data_dir = '../data/mass_road'  # 此处放预测数据
-    gt_dir = '../data/GT'   # 此处放真实数据
+    data_dir = 'data/mass_road'  # 此处放预测数据
+    gt_dir = 'data/GT'  # 此处放真实数据
     main(data_dir, gt_dir)

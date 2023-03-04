@@ -3,7 +3,7 @@ import os
 """
 在图中的指定位置画矩形
 """
-masks_path = "./image"
+masks_path = "image"
 img = cv2.imread("./image/demo1.jpg")  # 此处以什么图像为准进行标记
 print("请选择要标记的区域")
 roi = cv2.selectROI(windowName="roi", img=img, showCrosshair=True, fromCenter=False)

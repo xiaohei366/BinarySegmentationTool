@@ -8,7 +8,7 @@
 - "批量"根据GroundTruth图象的识别情况，评估模型分割图的MIoU、Accuracy、Recall、Precision指标
 - 画散点图
 - "批量"在**不同模型**分割图中的指定位置画矩形图--标出明显的区域进行比较。如：
-- ![](./out/1.png)
+- ![](out/1.png)
 
 
 TODO：

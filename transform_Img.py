@@ -14,8 +14,8 @@ def add_mask2image_binary(masks, masked):
 
 
 # 注意使用全局路径，且无中文
-masks_path = "../data/GT"          # 转换路径
-masked_path = "../data/GT_binary"  # 保存路径
+masks_path = "data/GT"  # 转换路径
+masked_path = "data/GT_binary"  # 保存路径
 add_mask2image_binary(masks_path, masked_path)
 
 
